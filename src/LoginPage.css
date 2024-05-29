@@ -1,0 +1,193 @@
+.login-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100%;
+    /* background-color: #fff4f4; */
+    background-image: url('./assets/images/bg-main.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.login-page .container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    align-items: center;
+    height: 100%;
+    width: 65%;
+    background-color: #ffffff49;
+    /* background-color: rgb(255, 255, 255); */
+    /* border: 1px solid red; */
+    /* border: 1px solid black; */
+    backdrop-filter: blur(20px);
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 2px 3px 15px #0000006d;
+    /* padding: 20px 40px; */
+}
+
+.login-page .image-container {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    width: 60%;
+    height: 70vh;
+    background-color: #000000;
+    background-position: center;
+    background-size: cover;
+}
+
+.image-container .greetings {
+  /* color: #fff; */
+  background: -webkit-linear-gradient( -105deg,#0000ff, #de2222);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: 0rem;
+  line-height: 5rem;
+  margin-left: 4rem;
+  font-size: 4.5rem;
+}
+
+.container .login-form-container {
+    width: 50%;
+    margin: 1rem 2rem;
+    /* border: 1px solid red; */
+    padding: 20px 30px;
+}
+
+.container h2 {
+  font-size: 3rem;
+  margin-bottom: 1.2rem;
+}
+
+.container .login-form-container form {
+    /* height: 200px; */
+    width: 95%;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.email-input {
+  outline: none;
+}
+
+.email-input, form .password-input-container {
+  width: 100% ;
+  margin: 0.5rem 0;
+  border: 1.5px solid #05002c63;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.email-input:focus, form .password-input-container:focus{
+  border: 2px solid #05002c;
+}
+
+
+form input, form .password-input-container input {
+  padding: 1.1rem 0.9rem;
+  font-size: 0.9rem;
+}
+
+.password-input-container.focused {
+  border: 2px solid #05002c;
+}
+/* src/components/PasswordInput.css */
+
+/* src/components/PasswordInput.css */
+
+.password-input-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    /* width: 100%; */
+    justify-content: space-between;
+    /* padding: 0 20px 0 0; */
+    /* max-width: 300px; */
+    /* margin: 0 auto; */
+    border: 1px solid black;
+    overflow: hidden;
+  }
+
+  .password-input-container input {
+    border: none;
+    outline: none;
+    width: 100%;
+  }
+  
+  .password-input {
+    /* width: 100%; */
+    border: none;
+    outline: none;
+    /* /padding: 10px; */
+    /* padding-right: 40px; Ensure space for the icon */
+    font-size: 16px;
+    -webkit-text-security: disc; /* Attempt to disable the default eye button in some browsers */
+  }
+  
+  /* .password-input:focus {
+    outline: none;
+    border: 1px solid #007bff;
+  } */
+  
+  .forgot-password {
+    align-self: flex-end;
+  }
+  
+  .btn {
+    padding: 1.1rem 0.9rem;
+    border-radius: 10px;
+    border: none;
+    background-color: #05002c;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 1rem;
+  }
+
+  .btn:hover {
+    background-color: #141227;
+  }
+
+  @media screen and (max-width: 780px) {
+    .login-page .container {
+      flex-direction: column-reverse;
+      height: 100vh;
+      width: 100%;
+      /* background-color: rgb(255, 255, 255); */
+      /* border: 1px solid red; */
+      border-radius: 0px;
+      overflow: hidden;
+  }
+
+  .login-page .image-container {
+    display: none;
+    justify-content: flex-start;
+    width: 80%;
+    height: 20%;
+    background: transparent;
+}
+
+.image-container .greeting {
+  font-size: 2.5rem;
+  color: #000;
+  margin-left: 0px;
+  justify-self: flex-start;
+}
+
+.container .login-form-container {
+  width: 100%;
+  height: 80%;
+  margin: 1rem 2rem;
+  /* border: 1px solid red; */
+  padding: 30px 30px;
+}
+   
+.container .login-form-container form {
+  width: 100%;
+}
+}

@@ -84,7 +84,8 @@
 }
 
 .email-input:focus, form .password-input-container:focus{
-  border: 2px solid #05002c;
+  border: 0.1px solid #05002c;
+  outline: none;
 }
 
 
@@ -94,7 +95,7 @@ form input, form .password-input-container input {
 }
 
 .password-input-container.focused {
-  border: 2px solid #05002c;
+  /* border: 0.5px solid #05002c; */
 }
 /* src/components/PasswordInput.css */
 

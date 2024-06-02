@@ -81,7 +81,7 @@
     }
 
     .profile-container .profile-image {
-        margin-top: 4.5rem;
+        margin-top: 7.5rem;
         position: static;
         margin-top: auto 20px;
         justify-self: center;
@@ -143,6 +143,4 @@
     .profile-nav-items li.selected {
         box-shadow: 0 0 20px #00000070;
     }
-
-
 }

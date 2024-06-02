@@ -21,7 +21,7 @@ const SignUpPage = () => {
 
   const HandleSubmit = (e) => {
     e.preventDefault();
-    Navigate('/home');
+    Navigate('/Home');
   }
 
   return (
